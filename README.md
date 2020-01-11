@@ -4,6 +4,7 @@ This project is the final starting project before branching out. The goal is to 
 It must fit in one source file and one header. Mine works with multiple file descriptors. It also has no memory leaks (hurray)!
 
 # Usage
+//
 char *line;
 
 // To get a single line
