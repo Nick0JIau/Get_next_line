@@ -4,22 +4,4 @@ This project is the final starting project before branching out. The goal is to 
 It must fit in one source file and one header. Mine works with multiple file descriptors. It also has no memory leaks (hurray)!
 
 # Usage
-//
-char *line;
-
-// To get a single line
-get_next_line(fd, &line);
-...
-ft_strdel(&line); // You should free after you're done using your line
-
-// To read a whole file
-while (get_next_line(fd, &line))
-{
-	// process the line here, here we'll just output it
-	ft_putstr(line);
-	
-	// free the line to avoid leaking memory
-	ft_strdel(&line);
-}
-
-// GNL will automatically free appropriately whenever it reaches EOF.
+<img width="876" alt="Screen Shot 2020-01-11 at 12 27 08 PM" src="https://user-images.githubusercontent.com/48098400/72202928-c0444280-346d-11ea-9dae-e0b92ee74755.png">
